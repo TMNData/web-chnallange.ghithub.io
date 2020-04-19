@@ -1,0 +1,164 @@
+/* Import font if needed */
+html,body{
+  background-color: rgb(224, 223, 223);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(67, 67, 67);
+  margin: 0px
+  font: size 20;
+}
+
+p,blockquote{
+  font-size: .9em;
+  line-height: 1.5em;
+}
+.container{
+  /* text-align: center; */
+  padding: 0.8em 1.2em;
+}
+
+.navbar{
+    padding: .1rem;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-block: inherit;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.nav, navbar, navbar-expand-lg, navbar-light{
+  background-color: rgb(11, 133, 127);
+}
+.nav-link dropdown-toggle{
+  color: rgb(67, 67, 67);
+  background-color: lightgray;
+}
+
+/* Box title */
+.title{
+  color: rgb(11, 133, 127);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-weight: bolder; 
+  padding-top: 0.8rem; 
+  padding-left: 0.8rem;
+}
+#cen{
+  text-align: center;
+  align-content: center;
+  padding-left: 10px;
+  padding-top: 1.5%;
+  
+}
+/* Box */
+.box {
+  position: relative; 
+  padding: 2em 2em 2em;
+  background-color: white;
+  color: rgb(87, 87, 87)
+}
+
+.bg-light {
+  background-color: white!important;
+}
+p{
+  font-size: 18px;
+}
+/* Images */
+img{
+  float: left;
+  width:100%;
+  height:100%;
+}
+
+/* Images display scaled */
+
+.scaled {
+  width:50%;
+  height:50%;}
+
+.scaled-X {
+  width:80%;
+  height:80%;}
+.active, .panel:hover{
+  border-color: rgb(11, 133, 127);
+  border-style: solid; 
+
+}
+th{
+  text-align: center; 
+}
+
+/* Footer */
+footer{
+  background-color: rgb(68, 66, 66); 
+  border-top-style: solid; 
+  border-top-width: 5px; 
+  border-top-color:  rgb(11, 133, 127);
+  color: white; 
+  min-height: 55px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+  text-align: center; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px; 
+  }
+
+
+.fontcolor{
+    color: gray;
+}
+  
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: rgb(11, 133, 127) !important;
+}
+.navbar{
+  max-height: none; 
+  padding: inherit;
+}
+.navbar div{
+  margin: inherit; 
+  background-color: white;  
+}
+.navbar-brand{
+  padding: 2px !important; 
+}
+
+button{
+  margin-right: 30px; 
+}
+button:focus {
+
+  outline: 1px;
+  outline: 5px auto -webkit-focusring-color;
+  
+  }
+.navbar-light .navbar-brand:active {
+    color: white;
+    font-size: 24px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  background-color: rgb(171, 174, 177);
+  
+}
+
+
+}
+
